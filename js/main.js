@@ -69,19 +69,24 @@ class Paletas {
     
   }
   
-  
-  ///Stock de productos///
-  var outofStock = arrayProducts.filter(product => product.amount == 0 || product.avalible == false);
-  console.log(outofStock);
-  document.write("<p> Out of Stock: </p>");
-  
-  
-  
-  for (var product of outofStock) {
-    document.write("<p>Name:" + product.name + "</p>");
-    document.write("<p>Weight:" + product.weight + "</p>");
-    document.write("<p>Player Type:" + product.playerType + "</p>");
-    document.write("<p>Amount:" + product.amount + "</p>");
-  
-  }
-  
+
+//Buscar un producto por Nombre:
+
+//Busqueda de productos//
+
+/* var joined = prompt('enter the product');
+var proJoined = arrayProducts.filter(product => product.name.includes(joined));
+console.log(proJoined);
+document.write("<p> entered items </p>");
+
+for (var product of proJoined){
+  document.write(" <p>Name " + product.name + "</p>");
+  document.write(" <p>Amount " + product.amount + "</p>");
+  document.write(" <p>Player Type " + product.playerType + "</p>");
+  document.write(" <p>Weight " + product.weight + "</p>");
+} */
+
+
+
+
+
