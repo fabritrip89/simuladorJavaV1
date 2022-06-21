@@ -105,5 +105,20 @@ for (var product of outofStock) {
 
 }
 
+///MANIULACION DE DOM///
+
+let palas       = document.getElementsByClassName("palas");
+let contenedores = document.getElementsByTagName("div");
+
+for (const pais of palas) {
+    console.log(palas.innerHTML);
+}
+
+for (const div of contenedores) {
+    console.log(div.innerHTML);
+}
+
+
+
 
 
