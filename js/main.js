@@ -118,7 +118,7 @@ for (const div of contenedores) {
     console.log(div.innerHTML);
 }
 
-
+//Agregar eventos//
 
 
 
