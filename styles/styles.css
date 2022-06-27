@@ -14,3 +14,15 @@ p{
 body{
     background-color: darkgray;
 }
+
+.buttonnn{
+    padding: 1rem;
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 2.5rem;
+    width: fit-content;
+}
+.buttonnn:hover {
+    background-color: red;
+    cursor: pointer;
+}

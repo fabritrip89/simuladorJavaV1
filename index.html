@@ -6,48 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
-    <script src="js\main.js"></script>
+
     <link rel="stylesheet" href="styles\styles.css">
 </head>
 
 <body>
 
-<!-- SE INCORPORA EVENTO AL DAR CLICK 
-FALTA ASOCIARLO A ENTER, SE APLICA EN NUEVO ENVIO-->
-    <h2>Acepto los terminos y condiciones.</h2>
+
+
+
+
+    <!--     <h3>Acepto los terminos y condiciones.</h3>
 
     <button id="btnpadel">Enviar</button>
 
-    <script>
+    <div class="contenedor">
 
-        let button =
+        <p>Paleta Head Pro </p>
+        <p>Paleta Adidas</p>
 
-            document.getElementById("btnpadel")
-        button.addEventListener("click", respuestaClick)
-        function respuestaClick() {
-            console.log("Aceptacíon terminos y condiciones");
-            alert('Aceptaste los terminos y condiciones.')
-        }
-
-    </script>
+    </div>
 
 
-
-<div class="contenedor">
-
-    <p>Paleta Head Pro </p>
-    <p>Paleta Adidas</p>
-
-</div>
+    <ul>
+        <li class="palas">Paleta Head Pro</li>
+        <li class="palas">Paleta Adidas</li>
+        <li class="palas">Paleta Head Pro</li>
+    </ul> -->
 
 
-<ul>
-    <li class="palas">Paleta Head Pro</li>
-    <li class="palas">Paleta Adidas</li>
-   <li class="palas">Paleta Head Pro</li>
-</ul>
+    <!-- SE INCORPORA EVENTOs AL DAR CLICK Y ENVIO-->
 
+    <form>
+        <h3>Email: <input type="email" name="email" id="email" placeholder="xxx@xxx.com">
+        Password: <input type="password" name="password" id="password" placeholder="Pass">
 
+        <input id="text" type="button" class="buttonnn" value="Enviar">
+    </h3> 
+
+    </form>
+
+    <script src="js\main.js"></script>
 
 </body>
 

@@ -3,7 +3,7 @@
 
 
 
-class Paletas {
+/*  class Paletas {
     constructor(name, weight, playerType, price, amount, number) {
       this.name = name.toUpperCase();
       this.weight = weight;
@@ -103,11 +103,11 @@ for (var product of outofStock) {
   document.write("<p>Player Type:" + product.playerType + "</p>");
   document.write("<p>Amount:" + product.amount + "</p>");
 
-}
+} */
 
 ///MANIULACION DE DOM///
 
-let palas       = document.getElementsByClassName("palas");
+ let palas       = document.getElementsByClassName("palas");
 let contenedores = document.getElementsByTagName("div");
 
 for (const pais of palas) {
@@ -116,9 +116,30 @@ for (const pais of palas) {
 
 for (const div of contenedores) {
     console.log(div.innerHTML);
+} 
+ 
+//EVENTOS//
+
+
+
+const buttonText = document.getElementById('text')
+buttonText.addEventListener("click", clicked)
+
+function clicked() {
+  alert('Enviado correctamente')
+  console.log("click");
 }
 
+const emailtext = document.getElementById('email')
+emailtext.addEventListener("keydown", usuario)
 
+function usuario() {
+  console.log("usuario");
+}
 
+const passwordtext = document.getElementById('password')
+passwordtext.addEventListener("keypress", pass)
 
-
+function pass() {
+  console.log("password");
+}
