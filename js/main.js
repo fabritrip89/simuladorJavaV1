@@ -2,8 +2,7 @@
 
 
 
-
-/*  class Paletas {
+  class Paletas {
     constructor(name, weight, playerType, price, amount, number) {
       this.name = name.toUpperCase();
       this.weight = weight;
@@ -103,7 +102,7 @@ for (var product of outofStock) {
   document.write("<p>Player Type:" + product.playerType + "</p>");
   document.write("<p>Amount:" + product.amount + "</p>");
 
-} */
+} 
 
 ///MANIULACION DE DOM///
 
