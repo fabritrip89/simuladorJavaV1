@@ -2,7 +2,7 @@
 
 
 
-  class Paletas {
+/*   class Paletas {
     constructor(name, weight, playerType, price, amount, number) {
       this.name = name.toUpperCase();
       this.weight = weight;
@@ -115,7 +115,7 @@ for (const pais of palas) {
 
 for (const div of contenedores) {
     console.log(div.innerHTML);
-} 
+}  */
  
 //EVENTOS//
 
